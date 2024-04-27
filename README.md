@@ -3,6 +3,7 @@ The main weather page uses:
  
  and the globe view uses https://map.worldweatheronline.com/  to show the weather on the earth.
 
+Credit to the Spriters-Resourse for the SUN images on the loading screen
 
 
  To Nintendo:
