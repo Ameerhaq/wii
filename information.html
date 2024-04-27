@@ -58,3 +58,33 @@ forecastchannelwiionline@gmail.com</p>
     <script>anchors.add();</script>
   </body>
 </html>
+
+<audio id="myAudio" src="" autoplay="" loop="" ></audio>
+
+<script>
+    window.onload = function() {
+  var audio = document.getElementById('myAudio');
+
+    audio.src = 'Forecast Channel/Settings Forecast Channel.mp3';
+
+  audio.load();
+  audio.play();
+};
+
+</script>
+
+<a href="weather.html"><button>Go back to the Forecast Channel Wii Online</button></a>
+
+<style>
+        button {
+        background-image:url(buttonbg.PNG);
+        padding-right:90px;
+        padding-left:90px;
+        border: 2px solid grey;
+        border-radius:5px;
+        height:75px;
+        margin-left:5px;
+        cursor:pointer;
+        font-size:30px;
+    }
+</style>
