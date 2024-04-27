@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wii Forecast Channel Online - GLOBE VIEW</title>
+    <meta http-equiv="refresh" content="1;url=weather-earth.html" />
+
+</head>
+<body >
+
+
+        <audio id="myAudio" src="" autoplay="" ></audio>
+
+</body>
+</html>
+
+<script>
+    window.onload = function() {
+  var audio = document.getElementById('myAudio');
+
+    audio.src = 'globeopen.wav';
+
+  audio.load();
+  audio.play();
+};
+
+</script>
+
+
+<script>
+    function hoverweather() {
+      var audio = new Audio('hover.mp3');
+  audio.play();
+    }
+    </script>
+
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        overflow: hidden;
+    }
+    body {
+background-color:black;
+height: 100%;
+  margin:0;
+  padding:0;
+  background-image:url(GLOBEG.PNG);
+  background-repeat:no-repeat;
+  background-size:cover;
+    }
+    button {
+        background-image:url(buttonbg.PNG);
+        padding-right:90px;
+        padding-left:90px;
+        border: 2px solid grey;
+        border-radius:5px;
+        height:75px;
+        margin-left:5px;
+        cursor:pointer;
+    }
+
+</style>
+
+
+

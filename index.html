@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wii Forecast Channel - Loading</title>
+
+</head>
+<body>
+<a href="information.html">INFO (credits)</a>
+        <center>
+            <br>
+            <div class="loadingg">
+                <h2 style="text-align:center;">One moment, please...</h2>
+                <br>
+            </div>
+<br>
+<hr>
+<br>
+        <img src="weather_icons/Sun.png" alt="" id="suns">
+        <img src="weather_icons/Sun.png" alt="" id="suns">
+        <img src="weather_icons/Sun.png" alt="" id="suns">
+        <img src="weather_icons/Sun.png" alt="" id="suns">
+        <img src="weather_icons/Sun.png" alt="" id="suns">
+        <img src="weather_icons/Sun.png" alt="" id="suns">
+    </center>
+
+
+        <br>
+        <p style="text-align:center; display:block; color:white;" id="txtgather">latest weather information from: https://weather.tomorrow.io/  <br> globe view from: https://map.worldweatheronline.com/ <br><br> <b style="font-size:20px;">Gathering information from both websites....</b>  </p>
+        <br>
+        <hr>
+
+        <br>
+        <center>
+        <b>
+        <a href="weather.html" style="color:white; font-size:50px;">Click to continue</a></b>
+
+        </center>
+
+        <audio src="Forecast Channel/Connecting... - Forecast Channel.mp3" autoplay="" loop="" ></audio>
+</body>
+</html>
+
+
+
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        overflow: hidden;
+
+    }
+    body {
+
+background-image:url(forebackground.svg);
+background-color:#086EDE;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    }
+
+.loadingg {
+    height:120px;
+    width:550px;
+
+
+  text-align:center;
+  background: rgb(11,127,198);
+background: linear-gradient(90deg, rgba(11,127,198,1) 0%, rgba(6,30,137,1) 100%);
+  border-radius: 10px;
+}
+h2 {
+margin-top:25px;
+margin-left:10px;
+color:white;
+font-size:30px;
+}
+
+#txtgather {
+    opacity: 1;
+    animation: fade 2s linear;
+    animation-iteration-count:infinite;
+}
+
+#suns {
+    opacity: 1;
+    animation: fadeSUN 2s linear;
+    animation-iteration-count:infinite;
+    max-width:80px;
+}
+
+
+@keyframes fadeSUN {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+</style>
+
+
+
